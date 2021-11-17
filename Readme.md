@@ -1,3 +1,5 @@
+# This fork jsut adds more buckets. The shovel search I host is on https://auncaughbove17.github.io/shovel
+
 # Shovel Data
 
 A script that checks out all supported [scoop](https://scoop.sh/) buckets and collects the manifests in one searchable json file.
@@ -14,7 +16,7 @@ This is the prework for the [Shovel](https://shovel.sh) SPA that allows to searc
 
 ## Use
 
-`https://mertd.github.io/shovel-data/manifests.json`
+`https://auncaughbove17.github.io/shovel-data/manifests.json`
 
 # Licence
 

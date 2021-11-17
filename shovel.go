@@ -50,7 +50,12 @@ func getBuckets() []Bucket {
 		{"php", "ScoopInstaller/PHP"},
 		{"nonportable", "TheRandomLabs/scoop-nonportable"},
 		{"java", "ScoopInstaller/Java"},
-		{"games", "Calinou/scoop-games"},
+		{"scoop-nonportable", "TheRandomLabs/scoop-nonportable"},
+		{"dorado", "chawyehsu/dorado"},
+		{"ash258.ash258", "Ash258/Shovel-Ash258"},
+		{"galaxy-integrations", "borger/scoop-galaxy-integrations"},
+		{"JetBrains", "Ash258/Scoop-JetBrains"},
+		{"emulators", "hermanjustnu/scoop-emulators"},
 	}
 	return buckets
 }
@@ -63,7 +68,7 @@ func cloneBuckets() {
 }
 
 func write(fileName string, content string) {
-	file, err := os.Create("docs/" + fileName)
+	file, err := os.Create("./docs/" + fileName)
 	catch(err, "", "")
 	defer file.Close()
 	_, err = io.WriteString(file, content)
