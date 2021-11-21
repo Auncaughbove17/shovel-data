@@ -48,7 +48,6 @@ func getBuckets() []Bucket {
 		{"nightlies", "ScoopInstaller/Nightlies"},
 		{"nirsoft", "kodybrown/scoop-nirsoft"},
 		{"php", "ScoopInstaller/PHP"},
-		{"nonportable", "TheRandomLabs/scoop-nonportable"},
 		{"java", "ScoopInstaller/Java"},
 		{"scoop-nonportable", "TheRandomLabs/scoop-nonportable"},
 		{"dorado", "chawyehsu/dorado"},
